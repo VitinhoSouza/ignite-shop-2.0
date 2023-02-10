@@ -11,6 +11,7 @@ export const SuccessContainer = styled('main', {
   h1: {
     fontSize: '$2xl',
     color: '$gray100',
+    marginTop: 200,
   },
 
   p: {
@@ -33,24 +34,25 @@ export const SuccessContainer = styled('main', {
     '&:hover': {
       color: '$green300',
     }
-  }
-});
+  },
 
-export const ImageContainer = styled('div', {
-  width: '100%',
-  maxWidth: 130,
-  height: 130,
-  background: 'linear-gradient(180deg, #1ea483 0%, #7465d4 100%)',
-  borderRadius: 8,
-  padding: '0.25rem',
-  marginTop: '4rem',
+  div: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
 
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
+    position: 'absolute',
+    width: 100,
+    height: 100,
+    left: 'calc(50% - 50px/2)',
+    top: '150px',
 
+    img: {
+      background: 'linear-gradient(180deg, #1ea483 0%, #7465d4 100%)',
+      borderRadius: 1000,
 
-  img: {
-    objectFit: 'cover',
-  }
+      marginLeft: '-70px'
+    }
+   }
 });
