@@ -22,4 +22,5 @@ The framework used was **Next.js**, which is based on server-side rendering and 
 - For the project to work correctly, you must have a stripe account, register products in it, add the tow keys related to the account in a local .env file and another one to indicate the base url of the application:
   - **STRIPE_PUBLIC_KEY**;
   - **STRIPE_SECRET_KEY**;  
-  - **NEXT_URL**, where the value is the base url of your project, the default in development is http://localhost:3000.
+  - **NEXT_URL**, where the value is the base url of your project, the default in development is `http://localhost:3000`.
+- To check the project in production, go to: https://ignite-shop-2-0-vitinho.vercel.app/.
